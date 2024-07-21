@@ -76,7 +76,7 @@ function CreateOrder() {
           {/* Создал скрытый инпут и поместил туда cart в виде строки, что тег Form
           собрал значение */}
           <input type="hidden" name="cart" value={JSON.stringify(cart)} />
-          <Button disabled={isSubmitting}>
+          <Button type="primary" disabled={isSubmitting}>
             {isSubmitting ? 'Placing order...' : 'Order now'}
           </Button>
         </div>
