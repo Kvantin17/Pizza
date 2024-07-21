@@ -1,5 +1,5 @@
 const Username = () => {
-  return <div className="text-sm font-semibold">Alex</div>;
+  return <div className="hidden text-sm font-semibold md:block">Alex</div>;
 };
 
 export default Username;
